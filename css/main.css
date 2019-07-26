@@ -122,8 +122,11 @@ textarea {
 
 img {
   width: 100%;
-}
+  }
 
+  figure {
+    margin: 0;
+  }
    h2 {
      font-family: 'Poppins', sans-serif;
      font-weight: 500;
@@ -180,6 +183,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -251,6 +262,9 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  min-height: 500px;
+  background: url('../img/background.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .hero-area h1 {
@@ -297,6 +311,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/camp.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
@@ -329,6 +345,13 @@ input[type=button] {
   background-color: #2a423a;
 }
 
+.reviews figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
@@ -573,7 +596,8 @@ input[type=button] {
        width: 90%;
      }
 
-     .reviews article div {
+     .reviews article div,
+     .reviews article figure {
        width: 49%;
      }
 
