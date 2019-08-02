@@ -249,6 +249,21 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.125em;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+footer .social-icons p i {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.dot {
+  height: 39px;
+  width: 39px;
+  background-color: #527158;
+  border-radius: 50%;
 }
 
 footer .copyright {
@@ -422,7 +437,7 @@ input[type=button] {
 }
 
 .faq h2 {
-  margin-bottom: 40px;
+  margin-bottom: 1.875em;
   line-height: 1;
 }
 
@@ -433,6 +448,11 @@ input[type=button] {
 .faq-content h4 {
   line-height: 1.333;
   font-weight: 700;
+  font-size: 1.125em;
+}
+
+.faq-content p {
+  font-size: 1.142em;
 }
 /* ==========================================================================
    Helper classes
@@ -686,6 +706,7 @@ input[type=button] {
 
      .map-container {
        padding-bottom: 47%;
+     }
 
      /* ==========================================================================
       FAQ Page
